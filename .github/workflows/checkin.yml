@@ -27,6 +27,7 @@ jobs:
       SERVERPUSH_NOTIF_CONFIG: ${{ secrets.SERVERPUSH_NOTIF_CONFIG }}
       FEISHU_NOTIF_CONFIG: ${{ secrets.FEISHU_NOTIF_CONFIG }}
       WECOM_NOTIF_CONFIG: ${{ secrets.WECOM_NOTIF_CONFIG }}
+      TELEGRAM_NOTIF_CONFIG: ${{ secrets.TELEGRAM_NOTIF_CONFIG }}
     steps:
       - name: 📥 检出代码
         uses: actions/checkout@v4
